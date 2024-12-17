@@ -1,0 +1,57 @@
+h1 {
+    padding: 0 15px;  
+    color: rgb(38, 0, 126);
+    font-size: 45px;
+}
+.flower {
+    padding: 10px;
+    width: 600px;
+    margin: 10px;
+    border-radius: 10px;
+    background: rgb(255, 132, 239);
+    font-size: 40px;
+    color: black;
+}
+.blue_flower {
+    padding: 10px;
+    width: 600px;
+    margin: 10px;
+    border-radius: 10px;
+    background: rgb(104, 174, 255);
+    font-size: 40px;
+    color: black;
+}
+.flower_price {
+    font-weight: 700;
+}
+.flower_menu {
+    display: flex;
+}
+.hidden {
+    display: none;
+}
+button {
+    font-size: 30px;
+    color: black;
+}
+img {
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width: 1200px) {
+    h1 {
+        font-size: 35px;
+    }
+    .flower {
+    width: 400px;
+    font-size: 25px;
+    }
+    .blue_flower {
+        width: 400px;
+    font-size: 25px;
+    }
+    button {
+        font-size: 22px;
+    }
+}
